@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+    --btn-color: #0088a9;
+    --btn-color-hover: #0055a9;
+    --color-header: rgb(0, 0, 0);
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    color: #606060;
+}
+
+li, a, button, p {
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+h4 {
+    text-align: center;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: var(--color-header);
+    height: 35px;
+}
+
+.nav_menu {
+    list-style: none;
+    background-color:var(--color-header);
+    color: aliceblue;
+}
+
+.nav_menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    color: aliceblue;
+    background-color: var(--color-header);
+}
+
+.nav_menu li a {
+    color: aliceblue;
+    background-color: var(--color-header);
+}
+
+.nav_menu li a:hover {
+    color: var(--btn-color-hover);
+}
+
+.micar_button {
+    padding: 9px 25px ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: var(--btn-color);
+    color: aliceblue;
+}
+
+button:hover:not(.search_btn) {
+    background-color: var(--btn-color-hover);
+}
+
+input {
+    color: aliceblue;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    width: 400px;
+}
+
+.search_btn {
+    padding: 9px 25px ;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--btn-color);
+    position: absolute;
+    top: 21.5%;
+    left: 64%;
+}
+
+.search_img:hover {
+    background-color: #0088a9;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+}
+
+.categories li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.ult_camb {
+    margin-top: 110px;
+    margin-bottom: 60px;
+    border-bottom: 30px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.end li {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 2.5px solid rgb(116, 114, 114);
+}
