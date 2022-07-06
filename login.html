@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cambalaches</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .head {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            .he {
+                display: flex;
+                position: absolute;
+                bottom: 2px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <img src="images/icon.png" width="50" height="50" style="margin-right: auto; background-color: var(--color-header);" alt=""/>
+            <nav>
+                <ul class="nav_menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cambalache.html">Cambalaches</a></li>
+                    <li><a href="login.html">Ingresar</a></li>
+                </ul>
+            </nav>
+            <button class="micar_button" onclick="location.href='dashboard.html'">Mi carrito</button>
+        </header>
+
+        <div>
+            <h1 style="text-align: center; margin-top: 50px; font-weight: bold">Ingreso de Usuarios</h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="div_inputs">
+            <input class="input_login" type="text" placeholder="Correo Electrónico">
+            <input class="input_login" type="text" placeholder="Contraseña">
+            <div class="line" style="width: 500px"></div>
+            <h4 style="font-size: 11px; margin-top: 20px;">Si no tienes una cuenta de usuario <a href="/register.html">registrate aquí</a></h4>
+        </div>
+
+        <div class="categories" style="margin-top: 40px;">
+            <button class="micar_button">Ingresar</button>
+            <button class="micar_button" style="background-color: #c7eef8; color: rgb(3, 3, 3)">Cancelar</button>
+        </div>
+        <hr/>
+
+        <footer>
+            <ul class="end">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cambalache.html">Cambalaches</a></li>
+                <li style="border-right: none"><a href="login.html">Ingresar</a></li>
+            </ul>
+            <h4 style="margin: 15px;">Cambalaches.net</h4>
+        </footer>
+    </body>

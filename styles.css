@@ -8,6 +8,7 @@
 
 * {
     font-family: "Open Sans", sans-serif;
+    font-size: 12px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -15,10 +16,29 @@
     color: #606060;
 }
 
-li, a, button, p {
+li, p {
     font-weight: 500;
     font-size: 12px;
+    padding: 10px;
     text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 11px;
+    color: #c95555
+}
+
+button {
+    font-size: 11px;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 14px;
 }
 
 h4 {
@@ -38,19 +58,16 @@ header {
 .nav_menu {
     list-style: none;
     background-color:var(--color-header);
-    color: aliceblue;
 }
 
 .nav_menu li {
     list-style: none;
     display: inline-block;
     padding: 0px 20px;
-    color: aliceblue;
     background-color: var(--color-header);
 }
 
 .nav_menu li a {
-    color: aliceblue;
     background-color: var(--color-header);
 }
 
@@ -62,6 +79,7 @@ header {
     padding: 9px 25px ;
     border: none;
     border-radius: 50px;
+    margin: 30px;
     cursor: pointer;
     background-color: var(--btn-color);
     color: aliceblue;
@@ -71,10 +89,15 @@ button:hover:not(.search_btn) {
     background-color: var(--btn-color-hover);
 }
 
-input {
+.titulo {
+    height: 200px;
+    box-shadow: 10px 24px 5px -24px black;
+}
+
+.search_field {
     color: aliceblue;
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #2f3640;
@@ -92,7 +115,7 @@ input {
     cursor: pointer;
     background-color: var(--btn-color);
     position: absolute;
-    top: 21.5%;
+    top: 26.5%;
     left: 64%;
 }
 
@@ -127,4 +150,25 @@ input {
     padding-right: 10px;
     padding-left: 10px;
     border-right: 2.5px solid rgb(116, 114, 114);
+}
+
+.line {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid rgb(130, 130, 130);
+    margin-top: 15px;
+    width: 300px;
+}
+
+.input_login {
+    width: 35%;
+    height: 40px;
+    margin: 45px;
+}
+
+.div_inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
 }
