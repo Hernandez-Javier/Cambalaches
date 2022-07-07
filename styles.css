@@ -21,6 +21,7 @@ li, p {
     font-size: 12px;
     padding: 10px;
     text-decoration: none;
+    text-align: center;
 }
 
 a {
@@ -35,6 +36,9 @@ button {
 
 h1 {
     font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
 }
 
 h2 {
@@ -83,6 +87,7 @@ header {
     cursor: pointer;
     background-color: var(--btn-color);
     color: aliceblue;
+    width: 100px;
 }
 
 button:hover:not(.search_btn) {
@@ -192,3 +197,18 @@ button:hover:not(.search_btn) {
     margin: 10px;
     margin-top: 35px;
 }
+
+.dash_product {
+    display: flex;
+    flex-direction: column;
+}/*style for dashboard items*/
+
+.dash_li {
+    display: flex;
+    flex-direction: row;
+}/*to put buttons beside image in dashboard*/
+
+.text_dash {
+    color: rgb(59, 59, 252)
+
+}/*style for items names*/
