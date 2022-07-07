@@ -222,4 +222,10 @@ button:hover:not(.search_btn) {
 .user_name {
     text-align: start;
     margin-top: 15px;
+    box-shadow: 10px 24px 5px -24px black
+}
+
+.user_name_product {
+    text-align: start;
+    box-shadow: 10px 24px 5px -24px black;
 }
