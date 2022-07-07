@@ -218,3 +218,8 @@ button:hover:not(.search_btn) {
     resize: none;
     border: 2px solid black;
 }/*style for large text areas in new/edit product*/
+
+.user_name {
+    text-align: start;
+    margin-top: 15px;
+}
