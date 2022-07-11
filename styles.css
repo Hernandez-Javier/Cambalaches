@@ -87,10 +87,10 @@ header {
     cursor: pointer;
     background-color: var(--btn-color);
     color: aliceblue;
-    width: 100px;
+    width: 120px;
 }
 
-button:hover:not(.search_btn) {
+button:not(.search_btn):not(.micar_button):hover{
     background-color: var(--btn-color-hover);
 }
 
@@ -124,10 +124,6 @@ button:hover:not(.search_btn) {
     left: 64%;
 }
 
-.search_img:hover {
-    background-color: #0088a9;
-}
-
 .categories{
     display: flex;
     justify-content: center;
@@ -149,11 +145,13 @@ button:hover:not(.search_btn) {
     display: flex;
     justify-content: center;
     list-style: none;
+    height: 20px;
 }
 
 .end li {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top:3px;
     border-right: 2.5px solid rgb(116, 114, 114);
 }
 
@@ -201,11 +199,17 @@ button:hover:not(.search_btn) {
 .dash_product {
     display: flex;
     flex-direction: column;
-}/*style for dashboard items*/
+    text-align: start;
+    margin-left: 10px;
+}/*style for dashboard items (title, user)*/
 
 .dash_li {
     display: flex;
     flex-direction: row;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid rgb(134, 0, 0);
 }/*to put buttons beside image in dashboard*/
 
 .text_dash {
@@ -223,9 +227,4 @@ button:hover:not(.search_btn) {
     text-align: start;
     margin-top: 15px;
     box-shadow: 10px 24px 5px -24px black
-}
-
-.user_name_product {
-    text-align: start;
-    box-shadow: 10px 24px 5px -24px black;
-}
+}/*styles for user names in cambalaches page*/
